@@ -2,7 +2,7 @@ let lugares = document.querySelector("#lugares")
 
 async function traerDatos() {
     try {
-        let response = await fetch("assets/stays.json")
+        let response = await fetch("./stays.json")
         let data = await response.json()
         return data
     } catch (error) {
