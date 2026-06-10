@@ -95,3 +95,10 @@ divImagenes.innerHTML = `
     <img src=${datos[2].photo} alt="imagen">
     <img src=${datos[3].photo} alt="imagen">
 `
+let divIcono = document.querySelector("#icono")
+
+console.log(divIcono)
+
+divIcono.innerHTML = `
+    <img src="/favicon.svg" alt="imagen">
+`
