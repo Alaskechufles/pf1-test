@@ -100,5 +100,5 @@ let divIcono = document.querySelector("#icono")
 console.log(divIcono)
 
 divIcono.innerHTML = `
-    <img src="/favicon.svg" alt="imagen">
+    <img src="/images/favicon.svg" alt="imagen">
 `
